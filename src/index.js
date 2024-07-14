@@ -64,10 +64,3 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("contactForm").reset();
     });
 });
-function openMail() {
-  const mailLink = document.getElementById("mail-link");
-  mailLink.href = "mailto:gauravgowda452@gmail.com";
-  setTimeout(() => {
-    window.open(mailLink.href, "_blank");
-  }, 100);
-}
