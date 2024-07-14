@@ -13,3 +13,17 @@ $dark-blue-text: #272341; // For Headings
 $default-font-size: 1.6rem;
 $big-font-size: 4rem;
 $mid-font-size: 2.5rem;
+
+.social-icons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  a {
+    margin-left: 20px;
+    color: $primary-color;
+    font-size: $big-font-size;
+    &:hover {
+      color: $dark-grey;
+    }
+  }
+}

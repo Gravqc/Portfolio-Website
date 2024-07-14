@@ -75,4 +75,19 @@
       }
     }
   }
+
+  .tech-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    .tech-item {
+      background-color: #7e7e7e;
+      font-weight: 800;
+      color: $white-color;
+      padding: 3px 5px;
+      font-size: 1.25rem;
+    }
+  }
 }
