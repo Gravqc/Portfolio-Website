@@ -1,3 +1,11 @@
-node_modules/
-dist/
-.parcel-cache
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
